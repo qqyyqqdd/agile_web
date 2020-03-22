@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "task",
+      "type": "com.rest.demo.bean.Task",
+      "sourceType": "com.rest.demo.bean.Task"
+    }
+  ],
+  "properties": [
+    {
+      "name": "task.content",
+      "type": "java.lang.String",
+      "sourceType": "com.rest.demo.bean.Task"
+    },
+    {
+      "name": "task.created-time",
+      "type": "java.sql.Timestamp",
+      "sourceType": "com.rest.demo.bean.Task"
+    },
+    {
+      "name": "task.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.rest.demo.bean.Task",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
